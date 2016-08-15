@@ -1,11 +1,10 @@
 import requests
 import json
 
-i = 0
 j = 0
 n = 180
-while i < n:
-    i = i + 0.4
+#while i < n:
+for i in range(2,180):
     while j < n:
         j = j + 0.4
         print str(i)+"_"+str(j)
